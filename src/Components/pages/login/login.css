@@ -1,0 +1,56 @@
+.logIn {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+     rgba(255, 255, 255, 0.5),
+     rgba(255, 255, 255, 0.5)), url("../../images/user10.jpg");
+    background-size: cover;
+}
+
+.logInTitle {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logInForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logInForm > label {
+    margin: 10px 0;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logInInput {
+    padding: 10px;
+    background: white;
+    border: none;
+}
+
+.logInButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background: lightcoral;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.logInRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}

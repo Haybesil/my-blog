@@ -1,0 +1,56 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+     rgba(255, 255, 255, 0.5),
+     rgba(255, 255, 255, 0.5)), url("../../images/user1.jpg");
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.registerInput {
+    padding: 10px;
+    background: white;
+    border: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background: teal;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.registerLogInButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
