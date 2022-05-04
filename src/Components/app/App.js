@@ -1,5 +1,5 @@
 import "./App.css";
-// import Header from "../header/Header"
+import Header from "../header/Header"
 import TopBar from "../topbar/TopBar";
 import Home from "../pages/home/Home"
 import Single from "../pages/single/Single"
@@ -7,7 +7,7 @@ import Write from "../write/Write"
 import Settings from "../pages/settings/Settings"
 import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 
 
