@@ -3,8 +3,10 @@ import "./topbar.css"
 import user0 from '../images/user0.jpg'
 import { Link } from "react-router-dom"
 
+
 function TopBar() {
-  const user = true;
+
+   const user = true;
   return (
     <div className='top'>
       <div className='topLeft'>
@@ -33,7 +35,8 @@ function TopBar() {
               </li>
              
               <li className='topListItem'>{user && <Link className='link' to="/register">LOGOUT</Link>}</li>
-            </ul>
+           
+          </ul>
          </div>  
          
          <div className='topRight'>

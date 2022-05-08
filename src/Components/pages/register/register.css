@@ -54,3 +54,22 @@
     color: white;
     border-radius: 10px;
 }
+
+
+
+@media screen and (max-width: 680px) {
+    .register {
+        background-position: 50%;
+    }
+    
+    .registerTitle {
+        font-size: 45px;
+    } 
+    
+    .registerLogInButton {
+        top: 90px;
+        right: 0;
+        position: inherit;
+        margin-top: 10px;
+    }
+}

@@ -1,9 +1,5 @@
 import "./header.css"
 import user3 from "../images/user3.jpg"
-
-
-
-
 import React from 'react'
 
 function Header() {
