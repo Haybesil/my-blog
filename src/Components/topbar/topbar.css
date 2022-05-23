@@ -1,6 +1,6 @@
 .top {
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: white;
     position: sticky;
     top: 0;
@@ -58,6 +58,7 @@
 
 .topCenter {
     flex: 6;
+    margin-top: 30px;
 }
 
 /* Mobile view */
