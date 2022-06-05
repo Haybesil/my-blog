@@ -11,8 +11,6 @@ import TopBar from '../Components/topbar/TopBar'
 
 function Navbar() {
   
-    const user = true;
-
     const [sidebar, setSidebar] = useState(false); 
    
     const showSidebar = () => setSidebar(!sidebar);

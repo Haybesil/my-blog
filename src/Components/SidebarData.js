@@ -48,5 +48,17 @@ export const SidebarData = [
         path: '/register',
         icon: <GiIcons.GiEntryDoor />,
         cName: 'nav-text'
+      },
+      {
+        title: 'Profile',
+        path: '/settings',
+        icon: <BsIcons.BsFillPersonFill />,
+        cName: 'nav-text'
+      },
+      {
+        title: 'Search',
+        path: '/',
+        icon: <BsIcons.BsSearch />,
+        cName: 'nav-text'
       }
     ];
