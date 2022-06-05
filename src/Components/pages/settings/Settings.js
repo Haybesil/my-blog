@@ -1,7 +1,7 @@
 import React from 'react'
 import "./settings.css"
 import SideBar from '../../sidebar/Sidebar'
-import user0 from "../../images/user0.jpg"
+import user20 from "../../images/user20.jpg"
 
 export default function Settings() {
   return (
@@ -14,7 +14,7 @@ export default function Settings() {
     <form className='settingsForm'>
       <label>Profile Picture</label>
       <div className='settingsPP'>
-        <img className='settingsImg' src={user0} alt=''/>
+        <img className='settingsImg' src={user20} alt=''/>
         <label htmlFor='fileInput'>
           <i className='settingsPPIcon far fa-user-circle'></i>
         </label>

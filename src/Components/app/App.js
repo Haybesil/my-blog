@@ -10,6 +10,7 @@ import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
+import Navbar from '../Navbar'
 
 
 
@@ -21,6 +22,7 @@ function App() {
       
      <BrowserRouter>
      <TopBar/>
+     <Navbar/>
      
       <Routes>
         

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./topbar.css"
-import user0 from '../images/user0.jpg'
+import user20 from '../images/user20.jpg'
 import { Link } from "react-router-dom"
 
 
@@ -42,7 +42,7 @@ function TopBar() {
          <div className='topRight'>
          {
            user ? (
-            <Link to="/settings"><img className='topImg' src={user0} alt=''/></Link>
+            <Link to="/settings"><img className='topImg' src={user20} alt=''/></Link>
            ) : (
              <ul className='topList'>
                <li className='topListItem'>

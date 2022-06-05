@@ -1,6 +1,6 @@
 .top {
     width: 100%;
-    height: 150px;
+    height: 50px;
     background-color: white;
     position: sticky;
     top: 0;
@@ -20,8 +20,8 @@
 .topList {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 200px;
-    flex-shrink: 1;
+    /* flex-grow: 200px;
+    flex-shrink: 1; */
     justify-content: center;
     margin: 0;
     list-style-type: none;
@@ -64,6 +64,27 @@
 /* Mobile view */
 
 @media screen and (max-width: 680px) {
+
+    .top {
+        display: none;
+    }
+
+    /* .top {
+        width: 100%;
+        height: 110px;
+        flex-direction: column;
+
+    }
+
+    
+
+    .topCenter {
+        margin-top: 0;
+    }
+
+    .topRight {
+        margin-top: 0;
+    } */
 
     /* .top {
         display: flex;

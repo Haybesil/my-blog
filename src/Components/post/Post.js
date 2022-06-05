@@ -1,17 +1,17 @@
 import React from 'react'
 import "./post.css"
-import user4 from "../images/user4.jpg"
+import user22 from "../images/user22.jpg"
 
 export default function Post() {
   return (
     <div className='post'>
-      <img className='postImg' src={user4} alt=''/>
+      <img className='postImg' src={user22} alt=''/>
       <div className='postInfo'>
         <div className='postCats'>
           <span className='postCat'>Music</span>
           <span className='postCat'>Life</span>
         </div>
-        <span className='postTitle'>Qudus is a good boy</span>
+        <span className='postTitle'>Lorem ipsum dolor amet</span>
         <hr/>
         <span className='postDate'>1 hour ago</span>
       </div>

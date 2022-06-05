@@ -1,5 +1,5 @@
 import "./header.css"
-import user3 from "../images/user3.jpg"
+import user11 from "../images/user11.jpg"
 import React from 'react'
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
        <span className= 'headerTitleSm'>React & Node</span>        
        <span className= 'headerTitleLg'>Blog</span>        
       </div>
-      <img className='headerImg' src= {user3} alt=''/>
+      <img className='headerImg' src= {user11} alt=''/>
     </div>
   )
 }

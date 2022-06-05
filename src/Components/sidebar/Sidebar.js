@@ -1,14 +1,14 @@
 import React from 'react'
 import "./sidebar.css"
-import user2 from "../images/user2.jpg"
+import user17 from "../images/user17.jpg"
 
 function Sidebar() {
   return (
     <div className='sidebar'>
     <div className='sideBarItem'>
     <span className='sideBarTitle'>ABOUT ME </span>
-    <img className='sideBarImg' src={user2} alt=''/>
-    <p>Qudus is a good boy he always do his homework</p>
+    <img className='sideBarImg' src={user17} alt=''/>
+    <p>Lorem ipsum dolor amet greys grate</p>
   </div>
 
   <div className='sideBarItem'>
